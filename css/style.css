@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h2.hand-writing {
+    font-family: 'Patrick Hand', cursive;
+}
+
+a img:hover {
+    opacity: .8;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+
+}
+
+#nav-style {
+    background-color: #FFF;
+    border: none;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(24,24,24,0.2);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(24,24,24,0.2);
+    box-shadow: 0px 3px 5px 0px rgba(24,24,24,0.2);
+}
+
+.top-padding {
+    padding-top: 50px; /* navbar */
+}
+
+.topnav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+}
+
+.lead {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* navbar */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #FFF;
+    background: url(../img/air-plant-1.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-filter: brightness(.9);
+    filter: brightness(.9);
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #FFF;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-1 {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-2 {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.btn-slim-lines {
+    background-color: #fff;
+    color: #59ABE3;
+    border: 1px solid #59ABE3;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/bottom-banner.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.background-angle:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    margin: -400px 0px;
+    background-color: #59ABE3;
+    background: url(../img/bottom-banner.jpg) no-repeat center center;
+    z-index: -1;
+    -webkit-transform: skewY(-8deg);
+    -moz-transform: skewY(-8deg);
+    -ms-transform: skewY(-8deg);
+    -o-transform: skewY(-8deg);
+    transform: skewY(-8deg);
+    -webkit-backface-visibility: hidden;
+    opacity: .8;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
